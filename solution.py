@@ -12,7 +12,7 @@ def solution(x_success: int,
     _, pv = proportions_ztest([x_success, y_success], [x_cnt, y_cnt], alternative='larger')
     if pv < alpha:
         return True
-    else
+    else:
         return False
 
  

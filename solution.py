@@ -10,6 +10,6 @@ def solution(x_success: int,
              y_cnt: int) -> bool:
     alpha = 0.09
     _, pv = proportions_ztest([x_success, y_success], [x_cnt, y_cnt], alternative='two-sided')
-    return pv < alpha:
+    return pv < alpha
         
  
